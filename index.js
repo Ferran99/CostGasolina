@@ -23,11 +23,11 @@ var app = new Vue({
                             <input type="number" class="form-control" id="formGroupExampleInput" placeholder="100" v-model="kmTot">
                         </div>
                         <div class="form-group">
-                            <h3 for="formGroupExampleInput2">Preu Gasolina (€/l)</h3>
+                            <h3 for="formGroupExampleInput2">Preu benzina (€/l)</h3>
                             <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="1.4" v-model="preuG">
                         </div>
                         <div class="form-group">
-                        <h3 for="formGroupExampleInput3">Consum de gasolina (l/100Km)</h3>
+                        <h3 for="formGroupExampleInput3">Consum de benzina (l/100Km)</h3>
                         <input type="number" class="form-control" id="formGroupExampleInput3" placeholder="2.1" v-model="consum">
                     </div>
                     <button type="button" v-on:click="calcularResultat" class="btn btn-warning">Calcular</button>
